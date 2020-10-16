@@ -1,0 +1,1 @@
+Open yelp_client_ice_cream.html in a browser
