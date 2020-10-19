@@ -46,12 +46,12 @@
             let tableBody = "";
             let tableRow = "";
             let br = "<br>"
-            let nbp = "&nbsp;"
+            let nbsp = "&nbsp;"
             for(lindex=0; lindex < iceCreamShops.length; lindex++){
                 tableRow += rowStart;
                 tableRow += columnStrart + iceCreamShops[lindex]['name'] + columnEnd;
-                tableRow += columnStrart + iceCreamShops[lindex]['location']['address1'] + nbp + iceCreamShops[cindex]['location']['city'] + columnEnd;
-                tableRow += columnStrart + nbp + columnEnd;
+                tableRow += columnStrart + iceCreamShops[lindex]['location']['address1'] + nbsp + iceCreamShops[lindex]['location']['city'] + columnEnd;
+                tableRow += columnStrart + nbsp + columnEnd;
                 tableRow += columnStrart + iceCreamShops[lindex]['rating'] + br + iceCreamShops[lindex]['review_count'] + columnEnd;
                 tableRow += rowEnd;
             }
